@@ -2,8 +2,8 @@
 
 ## Роли и этапы
 1) BA → StRS: взять сырые входные (`input/`), промпт `prompts/10-gost-642-stakeholder.md`, результат в `target/docs/src/01_Stakeholder_Needs/` (Stakeholders, OpsCon, Constraints, REQ-BIZ).
-2) SA → Impact: использовать StRS + `reference/` (OpenAPI, схемы БД, интеграции), промпт `prompts/20-gost-643-impact-analysis.md`, результат `00_impact_analysis.adoc`.
-3) SA → SyRS: промпт `prompts/21-gost-643-system-spec.md`, заполнить `01_functional`, `02_quality`, `03_interfaces`, `04_verification`.
+2) SA → Impact: использовать StRS + `reference/` (OpenAPI, схемы БД, интеграции), промпт `prompts/20-gost-643-impact-analysis.md`, результат `00_impact_analysis.md`.
+3) SA → SyRS: промпт `prompts/21-gost-643-system-spec.md`, заполнить `01_functional`, `02_quality`, `03_interfaces`, `04_verification` (все `.md`).
 4) PM/SA → PDR/ADR: при развилках использовать `prompts/30-product-decision.md`, класть файл в `target/adrs/`.
 5) QA/Lead → Трассировка: `prompts/90-traceability-check.md`, отчет в `target/docs/src/04_Traceability/`.
 
@@ -11,7 +11,7 @@
 - `input/` — сырые данные без правок.
 - `reference/` — AS-IS: `openapi/`, `db_schema/`, `integrations.md`.
 - `prompts/` — инструкции по ролям и процессам.
-- `target/docs/src/` — итоговые документы StRS/SyRS/архитектура/трассировка.
+- `target/docs/src/` — итоговые документы StRS/SyRS/архитектура/трассировка (формат `.md`).
 - `target/adrs/` — решения и развилки (PDR/ADR).
 - `target/model.dsl` — модель Structurizr (опционально для диаграмм).
 

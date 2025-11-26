@@ -1,3 +1,3 @@
-= Verification
+# Verification
 
 Критерии приемки и тестовые идеи, связанные с REQ-SYS/REQ-BIZ. Что считается «готово».

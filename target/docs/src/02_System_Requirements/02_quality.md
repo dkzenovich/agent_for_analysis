@@ -1,3 +1,3 @@
-= Quality Requirements
+# Quality Requirements
 
 НФТ: производительность, надежность, безопасность, наблюдаемость. Связаны с REQ-SYS.

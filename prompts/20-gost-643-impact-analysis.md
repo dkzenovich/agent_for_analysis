@@ -15,7 +15,7 @@ description: 'Impact/GAP-анализ по AS-IS для выявления не�
 </inputs>
 
 <outputs>
-- `target/docs/src/02_System_Requirements/00_impact_analysis.adoc`: совместимость, breaking changes, версия/миграция API, риски, допущения.
+- `target/docs/src/02_System_Requirements/00_impact_analysis.md`: совместимость, breaking changes, версия/миграция API, риски, допущения.
 </outputs>
 
 <steps>
@@ -33,6 +33,6 @@ description: 'Impact/GAP-анализ по AS-IS для выявления не�
 </constraints>
 
 <audit_log>
-- Если обновляется `target/docs/src/02_System_Requirements/00_impact_analysis.adoc` (или другие файлы impact), создать `target/pdrs/YYYYMMDD-HHMM-impact-analysis.md`.
+- Если обновляется `target/docs/src/02_System_Requirements/00_impact_analysis.md` (или другие файлы impact), создать `target/pdrs/YYYYMMDD-HHMM-impact-analysis.md`.
 - Записать: входные файлы/версии, допущения, ключевые смысловые решения (вердикты, версии, риски), список измененных артефактов.
 </audit_log>

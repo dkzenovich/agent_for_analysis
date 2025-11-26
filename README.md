@@ -12,9 +12,9 @@
 - `docker-compose.yml` — опционально для локального сервера документации.
 
 ## Рабочий процесс (кратко)
-1) BA: заполняет `input/`, запускает промпт `10-gost-642-stakeholder.md`, получает StRS в `01_Stakeholder_Needs/`.
-2) SA: использует утвержденный StRS + `reference/`, запускает `20-gost-643-impact-analysis.md`, пишет `00_impact_analysis.adoc`.
-3) SA: по результату impact — `21-gost-643-system-spec.md`, заполняет SyRS (`01_functional`, `02_quality`, `03_interfaces`, `04_verification`).
+1) BA: заполняет `input/`, запускает промпт `10-gost-642-stakeholder.md`, получает StRS в `01_Stakeholder_Needs/` (`*.md`).
+2) SA: использует утвержденный StRS + `reference/`, запускает `20-gost-643-impact-analysis.md`, пишет `00_impact_analysis.md`.
+3) SA: по результату impact — `21-gost-643-system-spec.md`, заполняет SyRS (`01_functional.md`, `02_quality.md`, `03_interfaces.md`, `04_verification.md`).
 4) PM/SA: при развилках — `30-product-decision.md`, кладет PDR/ADR в `target/adrs/`.
 5) QA/Lead: `90-traceability-check.md` — отчет о целостности в `04_Traceability/`.
 

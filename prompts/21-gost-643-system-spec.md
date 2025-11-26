@@ -10,14 +10,14 @@ description: 'SyRS: оформление системных требований
 </context>
 
 <inputs>
-- `target/docs/src/02_System_Requirements/00_impact_analysis.adoc`.
+- `target/docs/src/02_System_Requirements/00_impact_analysis.md`.
 </inputs>
 
 <outputs>
-- `.../01_functional.adoc` — `REQ-SYS-XXX` системные функции.
-- `.../02_quality.adoc` — нефункциональные требования (нагрузка, надежность, безопасность и т.п.).
-- `.../03_interfaces.adoc` — дельта API/UI: новые/измененные методы, версии, совместимость.
-- `.../04_verification.adoc` — критерии приемки/AC, покрывающие REQ-SYS (и через них REQ-BIZ).
+- `.../01_functional.md` — `REQ-SYS-XXX` системные функции.
+- `.../02_quality.md` — нефункциональные требования (нагрузка, надежность, безопасность и т.п.).
+- `.../03_interfaces.md` — дельта API/UI: новые/измененные методы, версии, совместимость.
+- `.../04_verification.md` — критерии приемки/AC, покрывающие REQ-SYS (и через них REQ-BIZ).
 </outputs>
 
 <steps>
@@ -35,6 +35,6 @@ description: 'SyRS: оформление системных требований
 </constraints>
 
 <audit_log>
-- Если обновляются файлы SyRS (`01_functional.adoc`, `02_quality.adoc`, `03_interfaces.adoc`, `04_verification.adoc`), создать `target/pdrs/YYYYMMDD-HHMM-system-spec.md`.
+- Если обновляются файлы SyRS (`01_functional.md`, `02_quality.md`, `03_interfaces.md`, `04_verification.md`), создать `target/pdrs/YYYYMMDD-HHMM-system-spec.md`.
 - Записать: входные файлы/версии, допущения, ключевые смысловые решения (как формировались REQ-SYS, НФТ, интерфейсы, AC), список измененных артефактов.
 </audit_log>
